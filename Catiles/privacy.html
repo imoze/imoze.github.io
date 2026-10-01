@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catiles — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; --bg:#161d36; --fg:#e4dcf5; --muted:#a99cc8; --accent:#c4b0ea; --line:#2c3558; --code:#232c4d; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:28px 0 8px; color:var(--accent); }
+  p, li { margin:6px 0; }
+  .meta { color:var(--muted); margin-bottom:16px; }
+  nav { display:flex; gap:12px; margin:16px 0 8px; }
+  nav a { color:var(--accent); }
+  hr { border:none; border-top:1px solid var(--line); margin:48px 0; }
+  a { color:var(--accent); }
+  code { background:var(--code); padding:1px 5px; border-radius:4px; font-size:.92em; }
+</style>
+</head>
+<body>
+<main>
+
+<nav><a href="#en">English</a><a href="#ru">Русский</a></nav>
+
+<section id="en">
+<h1>Catiles — Privacy Policy</h1>
+<p class="meta">Last updated: October 2026</p>
+
+<p>This policy explains what data the mobile game <b>Catiles</b> (package <code>com.imoze.catiles</code>), published on Google Play by the developer <b>Imoze</b>, processes and why. The developer is an individual.</p>
+
+<h2>1. Data stored on your device</h2>
+<p>The game saves your best scores, game progress and settings (such as animation speed) in local files on your device. This data is not sent to the developer.</p>
+<p>If Android backup is enabled on your device, Android may include these files in your device backup to your Google account and restore them when you reinstall the game. This is handled by Google under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>; the developer has no access to these backups.</p>
+
+<h2>2. Determining your country</h2>
+<p>Google AdMob does not serve ads in some countries, so when the game starts it determines which country you are in, in order to choose an ad network (see section 3). To do this, the game sends a request:</p>
+<ul>
+  <li>first, to the developer's minimal web endpoint hosted on Cloudflare (<code>catiles.optictime0.workers.dev</code>), which only returns a two-letter country code;</li>
+  <li>if that endpoint does not respond, to the third-party geolocation service <a href="https://sypexgeo.net/">Sypex Geo</a>, which returns the country by IP address.</li>
+</ul>
+<p>Like any network request, these requests reveal your IP address to the service that receives them. The request to Sypex Geo may be sent over an unencrypted (HTTP) connection if a secure connection fails. The game sends no other data in these requests. Only the resulting country code is saved on your device, so it can be reused if the services are unavailable; the developer does not store your IP address. Cloudflare and Sypex Geo process requests under their own policies: <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>, <a href="https://sypexgeo.net/ru/privacy">Sypex Geo Privacy Policy</a>.</p>
+
+<h2>3. Advertising (Google AdMob and Yandex Ads)</h2>
+<p>The free version of the game shows ads. Users in Russia, and users whose country could not be determined, see ads from <b>Yandex Ads</b>; all other users see ads from <b>Google AdMob</b>. Only one ad network is used per game session.</p>
+<p><b>Google AdMob.</b> To show and measure ads, the Google Mobile Ads SDK may collect and process:</p>
+<ul>
+  <li>the device advertising ID (Android Advertising ID);</li>
+  <li>IP address and approximate location derived from it;</li>
+  <li>device and app information (device model, OS version, app version, language);</li>
+  <li>information about ad interactions and app performance/diagnostics.</li>
+</ul>
+<p>Depending on your consent choices and applicable law, ads may be personalized or non-personalized. This data is collected and used by Google, not by the developer. Learn more: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+<p><b>Users in the EEA, the UK and Switzerland</b> are asked for consent through Google's consent form before ads are requested. You can change your choice at any time in the game: <b>Settings → Privacy settings</b>.</p>
+<p><b>Yandex Ads.</b> The Yandex Mobile Ads SDK is started only when Yandex Ads is selected. To show and measure ads, it may collect and process the device advertising ID, IP address, device and app information, and information about ad interactions. This data is collected and used by Yandex, not by the developer, and is transmitted over an encrypted connection. Learn more: <a href="https://yandex.ru/legal/confidential/en/">Yandex Privacy Policy</a>.</p>
+<p>You can reset or delete your advertising ID at any time in your device settings (Google → Ads).</p>
+<p>If you purchase “Remove Ads”, the game stops loading ads and does not initialize the advertising SDKs.</p>
+
+<h2>4. In-app purchases (Google Play Billing)</h2>
+<p>The one-time purchase “Remove Ads” is processed by Google Play. The developer does not receive your payment card or billing details. The game only checks with Google Play whether the purchase belongs to your Google account, so it can be restored after reinstalling. If Google Play billing is not available in your region, the purchase option is not shown.</p>
+
+<h2>5. What the developer does not do</h2>
+<ul>
+  <li>The game has no user accounts and does not ask for your name, email, contacts, photos or precise location.</li>
+  <li>The developer does not sell personal data. The only developer-run service is the country endpoint described in section 2; it does not store data from the game.</li>
+</ul>
+
+<h2>6. Children</h2>
+<p>The game is not directed at children under 13, and the developer does not knowingly collect personal data from children.</p>
+
+<h2>7. Your rights</h2>
+<p>Depending on where you live (for example, under the GDPR), you may have rights to access, correct or delete your personal data and to withdraw consent. Consent for ads can be withdrawn in <b>Settings → Privacy settings</b>. Local game data, including the saved country code, is removed when you uninstall the game or clear its data. For data processed by Google or Yandex, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://yandex.ru/legal/confidential/en/">Yandex Privacy Policy</a>. For any other question, contact the developer.</p>
+
+<h2>8. Changes</h2>
+<p>This policy may be updated. The current version is always available at this address, with the date of the last update at the top.</p>
+
+<h2>9. Contact</h2>
+<p>Developer: Imoze<br>Email: <a href="mailto:imoze.support@gmail.com">imoze.support@gmail.com</a></p>
+</section>
+
+<hr>
+
+<section id="ru" lang="ru">
+<h1>Catiles — Политика конфиденциальности</h1>
+<p class="meta">Последнее обновление: октябрь 2026</p>
+
+<p>Эта политика описывает, какие данные обрабатывает мобильная игра <b>Catiles</b> (пакет <code>com.imoze.catiles</code>), опубликованная в Google Play разработчиком <b>Imoze</b>, и зачем. Разработчик — частное лицо.</p>
+
+<h2>1. Данные на вашем устройстве</h2>
+<p>Игра сохраняет рекорды, прогресс и настройки (например, скорость анимаций) в локальных файлах на устройстве. Эти данные разработчику не передаются.</p>
+<p>Если на устройстве включено резервное копирование Android, система может сохранять эти файлы в резервную копию в вашем аккаунте Google и восстанавливать их при переустановке игры. Это делает Google в соответствии с <a href="https://policies.google.com/privacy?hl=ru">Политикой конфиденциальности Google</a>; у разработчика нет доступа к этим копиям.</p>
+
+<h2>2. Определение страны</h2>
+<p>Google AdMob не показывает рекламу в некоторых странах, поэтому при запуске игра определяет, в какой стране вы находитесь, чтобы выбрать рекламную сеть (см. раздел 3). Для этого игра отправляет запрос:</p>
+<ul>
+  <li>сначала — на небольшой веб-сервис разработчика, размещённый в Cloudflare (<code>catiles.optictime0.workers.dev</code>), который возвращает только двухбуквенный код страны;</li>
+  <li>если он не ответил — в сторонний сервис геолокации <a href="https://sypexgeo.net/">Sypex Geo</a>, который определяет страну по IP-адресу.</li>
+</ul>
+<p>Как и любой сетевой запрос, эти запросы сообщают ваш IP-адрес сервису, который их получает. Если защищённое соединение не удалось, запрос к Sypex Geo может быть отправлен по незашифрованному соединению (HTTP). Никаких других данных игра в этих запросах не передаёт. На устройстве сохраняется только полученный код страны — чтобы использовать его, если сервисы недоступны; разработчик ваш IP-адрес не хранит. Cloudflare и Sypex Geo обрабатывают запросы в соответствии со своими политиками: <a href="https://www.cloudflare.com/privacypolicy/">Политика конфиденциальности Cloudflare</a>, <a href="https://sypexgeo.net/ru/privacy">Политика конфиденциальности Sypex Geo</a>.</p>
+
+<h2>3. Реклама (Google AdMob и Яндекс Реклама)</h2>
+<p>Бесплатная версия игры показывает рекламу. Пользователи в России, а также пользователи, чью страну определить не удалось, видят рекламу <b>Яндекс Рекламы</b>; все остальные — рекламу <b>Google AdMob</b>. За один игровой сеанс используется только одна рекламная сеть.</p>
+<p><b>Google AdMob.</b> Для показа и оценки рекламы Google Mobile Ads SDK может собирать и обрабатывать:</p>
+<ul>
+  <li>рекламный идентификатор устройства (Android Advertising ID);</li>
+  <li>IP-адрес и определяемое по нему приблизительное местоположение;</li>
+  <li>сведения об устройстве и приложении (модель, версия ОС, версия игры, язык);</li>
+  <li>сведения о взаимодействии с рекламой, а также диагностические данные.</li>
+</ul>
+<p>В зависимости от вашего согласия и применимого законодательства реклама может быть персонализированной или неперсонализированной. Эти данные собирает и использует Google, а не разработчик. Подробнее: <a href="https://policies.google.com/technologies/partner-sites?hl=ru">как Google использует данные сайтов и приложений, использующих его сервисы</a>.</p>
+<p><b>Пользователям из ЕЭЗ, Великобритании и Швейцарии</b> перед запросом рекламы показывается форма согласия Google. Изменить выбор можно в любой момент в игре: <b>Настройки → Настройки конфиденциальности</b>.</p>
+<p><b>Яндекс Реклама.</b> Yandex Mobile Ads SDK запускается, только если выбрана Яндекс Реклама. Для показа и оценки рекламы он может собирать и обрабатывать рекламный идентификатор устройства, IP-адрес, сведения об устройстве и приложении и сведения о взаимодействии с рекламой. Эти данные собирает и использует Яндекс, а не разработчик; они передаются по зашифрованному соединению. Подробнее: <a href="https://yandex.ru/legal/confidential/">Политика конфиденциальности Яндекса</a>.</p>
+<p>Рекламный идентификатор можно в любой момент сбросить или удалить в настройках устройства (Google → Реклама).</p>
+<p>После покупки «Убрать рекламу» игра перестаёт загружать рекламу и не запускает рекламные SDK.</p>
+
+<h2>4. Покупки в приложении (Google Play Billing)</h2>
+<p>Разовую покупку «Убрать рекламу» обрабатывает Google Play. Разработчик не получает данные вашей карты или платёжные реквизиты. Игра лишь проверяет в Google Play, принадлежит ли покупка вашему аккаунту Google, чтобы восстановить её после переустановки. Если оплата через Google Play в вашем регионе недоступна, кнопка покупки не показывается.</p>
+
+<h2>5. Чего разработчик не делает</h2>
+<ul>
+  <li>В игре нет учётных записей; она не запрашивает имя, email, контакты, фото или точное местоположение.</li>
+  <li>Разработчик не продаёт персональные данные. Единственный сервис разработчика — описанный в разделе 2 сервис определения страны; он не хранит данные из игры.</li>
+</ul>
+
+<h2>6. Дети</h2>
+<p>Игра не предназначена для детей младше 13 лет, и разработчик сознательно не собирает персональные данные детей.</p>
+
+<h2>7. Ваши права</h2>
+<p>В зависимости от места проживания (например, по GDPR) у вас могут быть права на доступ к персональным данным, их исправление и удаление, а также на отзыв согласия. Согласие на рекламу можно отозвать в разделе <b>Настройки → Настройки конфиденциальности</b>. Локальные данные игры, включая сохранённый код страны, удаляются при удалении игры или очистке её данных. По данным, которые обрабатывают Google и Яндекс, см. <a href="https://policies.google.com/privacy?hl=ru">Политику конфиденциальности Google</a> и <a href="https://yandex.ru/legal/confidential/">Политику конфиденциальности Яндекса</a>. По остальным вопросам пишите разработчику.</p>
+
+<h2>8. Изменения</h2>
+<p>Политика может обновляться. Актуальная версия всегда доступна по этому адресу, дата последнего обновления указана вверху.</p>
+
+<h2>9. Контакты</h2>
+<p>Разработчик: Imoze<br>Email: <a href="mailto:imoze.support@gmail.com">imoze.support@gmail.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
